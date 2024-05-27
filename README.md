@@ -2,9 +2,13 @@
 
 Install dependencies:
 ```
-  npm init
+  npm install
 ```
-Start the development server:
+In case of issues shown after the npm install, run the below to automatically fix the issues:
+```
+  npm audit fix
+```
+Start development server:
 ```
   npm start
 ```
